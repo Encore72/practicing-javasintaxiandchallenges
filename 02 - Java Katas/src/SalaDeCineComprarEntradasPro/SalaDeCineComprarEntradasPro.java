@@ -1,5 +1,4 @@
 package SalaDeCineComprarEntradasPro;
-
 import java.util.ArrayList;
 
 public class SalaDeCineComprarEntradasPro {
