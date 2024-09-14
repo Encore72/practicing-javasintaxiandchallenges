@@ -21,7 +21,6 @@ public class SalaDeCineComprarEntradas {
      */
 
     public static void printOcupadaLibre() {
-
         for (int fila = 0; fila < salaDeCine.length; fila++) {
             for (int butaca = 0; butaca < salaDeCine[fila].length; butaca++) {
                 if (salaDeCine[fila][butaca] == true) {

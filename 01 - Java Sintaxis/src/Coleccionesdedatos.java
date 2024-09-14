@@ -27,6 +27,7 @@ public class Coleccionesdedatos {
 
         // 1.3 Declaración e inicialización al mismo tiempo. Estamos declarando el array y dandole los valores directamente.
     var array3 = new int[]{10, 20, 30, 40, 50, 60};
+            // esto asigna los valores de array3 a la variable elemento, para poder imprimr por pantalla todos los valores de array3
         for (int elemento : array3)
             System.out.println(elemento);
             

@@ -1,6 +1,6 @@
 public class ConversionAMayuscula {
 
-    public static String MakeUpperCase(String input){
+    public static String makeUpperCase(String input){
         return input.toUpperCase();
       }
 

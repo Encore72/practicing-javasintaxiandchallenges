@@ -83,15 +83,15 @@ public class Funciones {
     // invocamos la función 
     // dentro de otro metodo (objeto) que no sea la propia funcion porque entonces estariamos haciendo recursividad):
 
-    saludar();
+        saludar();
 
-    imprimirNombre("Alfredo");
-    
-    System.out.println(saludoGeneral);
-     
-    System.out.println(sumador(30, 40));
-    
-    System.out.println(precioConIva(10.0));
+        imprimirNombre("Alfredo");
+        
+        System.out.println(saludoGeneral);
+        
+        System.out.println(sumador(30, 40));
+        
+        System.out.println(precioConIva(10.0));
     
     }
              
