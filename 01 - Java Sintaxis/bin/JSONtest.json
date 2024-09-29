@@ -1,0 +1,16 @@
+{
+    "persona": {
+        "nombre": "Ana García",
+        "edad": 25
+    },
+    "mascotas": [
+        {
+            "nombre": "Luna",
+            "tipo": "perro"
+        },
+        {
+            "nombre": "Milo",
+            "tipo": "gato"
+        }
+    ]
+}

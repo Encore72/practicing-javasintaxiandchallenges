@@ -2,6 +2,7 @@ package Clases;
 
 public class Main {
     
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         
         // crear un objeto utilizando el constructor vacio
@@ -42,6 +43,17 @@ public class Main {
 
         // polimorfismo
 
+            /*
+             * Todos los vehiculos aceleran, pero cada vehículo acelera de distinta forma.
+             * Eso es el polimorfismo de clases, que cada clase responde de manera distinta
+             * a un mismo método, por ejemeplo aqui la moto acelera mas que el camion.
+             * 
+             * Otro ejemplo seria el de el método hablar en la clase personay las subclases
+             * pirata, piloto, oficinista. Todos son personas y todos hablan pero cada uno
+             * debería hablar con sus expresiones particulares, por ejemplo el pirata dirá
+             * "arr" y el piloto dirá "entrando en pista...", etc...
+             */
+
         Vehiculo vehiculo;
 
         vehiculo = new Camion();
@@ -49,12 +61,7 @@ public class Main {
 
         vehiculo = new Motocicleta();
         vehiculo.acelerar(150);
-
-
-  
-        // clases abstractas (no se pueden instanciar, solo instancian las clases hijas)
-
-    
+         
     }
 
 }

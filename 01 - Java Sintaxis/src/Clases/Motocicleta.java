@@ -19,7 +19,7 @@ public class Motocicleta extends Vehiculo {
 
     public Motocicleta(String fabricante, String modelo, double cc, int year, boolean sportMode, int speed,
             Motor motorGTI, boolean baulCasco, boolean carenado) {
-        super(fabricante, modelo, cc, year, sportMode, speed);
+        super(fabricante, modelo, cc, year, sportMode, speed); // <--- super se usa para llamar al constructor de la clase padre e inicilizar los atributos heredados
         this.baulCasco = baulCasco;
         this.carenado = carenado;
     }

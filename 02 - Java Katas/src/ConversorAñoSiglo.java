@@ -4,6 +4,8 @@ public static void main(String[] args) {
   
         
     System.out.println(obtenerSiglo(150));
+    
+    System.out.println(century(2000));
 
 }
  
@@ -18,5 +20,12 @@ public static void main(String[] args) {
             return año / 100 + 1;
         }
     }
+
+
+        public static int century(int number) {
+            return (number + 99) / 100;
+        }
+       
+
 
 }

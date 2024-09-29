@@ -1,9 +1,8 @@
 public class Bucles {
 
     /**
-     * Usamos tambien continue para detener le ejecucion del codigo en el bucley
-     * forzarlo a pasar a la siguiente instruccion
-     * y break para detener el bucle
+     * Usamos tambien continue para detener le ejecucion del codigo en el bucle 
+     * y forzarlo a pasar a la siguiente instruccion y break para detener el bucle
      */
 
     public static void main(String[] args) {
@@ -52,7 +51,6 @@ public class Bucles {
         for (int k = 0; k < texto.length(); k++) {
             System.out.println("Caracter actual: " + texto.charAt(k));
         }
-
 
 
         
