@@ -64,8 +64,7 @@ package XMLyJSON;
  * permite convertir objetos en JSON y viceversa.
  */ 
 
-
-
+ 
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
@@ -75,15 +74,21 @@ import com.fasterxml.jackson.databind.ObjectMapper;  // esto indica al compilado
 public class JSONtest {
 
     public static void main(String[] args) throws IOException {
-        // Ruta al archivo JSON (ajusta la ruta según tu proyecto)
+        // Ruta al archivo JSON (ajusta la ruta según proyecto)
         String rutaArchivo = "C:\\Users\\isaac\\Documents\\GitHub-Repositories\\tests-primerospasos\\01 - Java Sintaxis\\lib\\JSONtest.json";
 
-        // Crear un objeto ObjectMapper
+        // Crear un objeto ObjectMapper (es el objeto que realiza la conversion entre JSON y JAVA o viceversa)
         ObjectMapper mapper = new ObjectMapper();
 
         // Leer el contenido del archivo JSON y mapearlo a un objeto
+                    /**
+                     * El proceso de mapeo consiste en tomar cada parte del JSON y asignarla al atributo correspondiente en el objeto Java. 
+                     * Por ejemplo, si en el JSON tenemos un campo llamado "nombre", lo asignaremos al atributo nombre de la clase Persona.
+                     */
         Datos datos = mapper.readValue(new File(rutaArchivo), Datos.class);
-
+                                                                // el valuetype datos.class le dice al ObjectMapper que el tipo de dato que encontrará en el JSON
+                                                                // serán propiedades que coincidirán con los atributos de la clase Datos
+                                                                
         // Acceder a los datos y mostrarlos por consola
         System.out.println("Nombre de la persona: " + datos.getPersona().getNombre());
         System.out.println("Edad de la persona: " + datos.getPersona().getEdad());
@@ -129,7 +134,6 @@ class Persona {
     public void setEdad(int edad) {
         this.edad = edad;
     }
-    
 }
 
 class Mascota {
@@ -148,6 +152,4 @@ class Mascota {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
-
-
 }
