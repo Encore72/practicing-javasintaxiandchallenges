@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class CapacidadDeposito {
 
     public static void main(String[] args) {
-        
+
         miScanner();
 
-    } 
-    
+    }
+
     public static void miScanner() {
         Scanner miScanner = new Scanner(System.in);
         System.out.println("Indique litros en depósito: ");
