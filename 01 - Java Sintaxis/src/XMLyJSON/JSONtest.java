@@ -68,14 +68,13 @@ package XMLyJSON;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
-import com.fasterxml.jackson.databind.ObjectMapper;  // esto indica al compilador que importe las herramintas de jackson-databind-2.172.jar (JACKSON)
-
+import com.fasterxml.jackson.databind.ObjectMapper;  // esto indica al compilador que importe las herramientas de jackson-databind-2.172.jar (JACKSON)
 
 public class JSONtest {
 
     public static void main(String[] args) throws IOException {
         // Ruta al archivo JSON (ajusta la ruta según proyecto)
-        String rutaArchivo = "C:\\Users\\isaac\\Documents\\GitHub-Repositories\\tests-primerospasos\\01 - Java Sintaxis\\lib\\JSONtest.json";
+        String rutaArchivo = "D:\\GitHub-Repositories\\tests-primerospasos\\01 - Java Sintaxis\\lib\\JSONtest.json";
 
         // Crear un objeto ObjectMapper (es el objeto que realiza la conversion entre JSON y JAVA o viceversa)
         ObjectMapper mapper = new ObjectMapper();

@@ -77,7 +77,7 @@ public class mySwingCalculadoraIVA extends JFrame implements ActionListener {
 
     public void actionPerformed(ActionEvent e) { // esta funcion recibe como parametro una variable (e) del tipo ActionEvent (usamos e de evento segun buenas practicas)
         if (e.getSource() == btnCalcular) { // e.getSource verifica si el evento (e) que ha ocurrido proviene del boton calcular
-            try { // esto ejecuta el calculo del precio total (precio base + IVA)
+            try { // esto ejecuta el cálculo del precio total (precio base + IVA)
                 double precioBase = Double.parseDouble(txtPrecioBase.getText());  // ver explicacion parseDouble abajo
                 double iva = Double.parseDouble(txtIVA.getText());
                 double precioTotal = precioBase + (precioBase * (iva / 100));

@@ -29,7 +29,8 @@ public class XMLtest {
             DocumentBuilder builder = factory.newDocumentBuilder();
 
             // Parsear el archivo XML (parsear = leer/analizar)
-            Document document = builder.parse("C:\\Users\\isaac\\Documents\\GitHub-Repositories\\tests-primerospasos\\01 - Java Sintaxis\\lib\\XMLtest.xml");
+            Document document = builder.parse("D:\\GitHub-Repositories\tests-primerospasos\01 - Java Sintaxis\\lib\\XMLtest.xml");
+
 
             // Obtener el elemento raíz (El elemento raíz en XML [en este ejemplo es biblioteca] es como el tronco principal de un árbol: es el primer y único elemento 
                                         // que contiene a todos los demás elementos del documento. Imagina un documento XML como una estructura jerárquica, donde cada 

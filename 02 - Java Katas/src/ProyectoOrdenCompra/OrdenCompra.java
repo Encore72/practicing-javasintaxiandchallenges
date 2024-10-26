@@ -53,6 +53,7 @@ public class OrdenCompra {
         this.cliente = cliente;
     }
 
+
     // metodos
 
         // metodo añadir productos
@@ -65,7 +66,7 @@ public class OrdenCompra {
         // metodo obtener precio total
     public double getPrecioTotal() {
         double precioTotal = 0.0;
-        for (Producto p: productos) {
+        for (Producto p : productos) {
             precioTotal += p.getPrecio();
             precioTotal = Math.round(precioTotal * 100.0) / 100.0;
         }
