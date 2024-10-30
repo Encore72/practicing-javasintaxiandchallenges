@@ -1,6 +1,6 @@
 package ProyectoFacturasOptimizadoyDebug;
 
-import org.aguzman.appfacturas.modelo.*;
+import ProyectoFacturasOptimizadoyDebug.modelo.*;
 
 import java.util.Scanner;
 

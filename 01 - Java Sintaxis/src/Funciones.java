@@ -98,7 +98,7 @@ public class Funciones {
 
 
 
-    /** ¿Qué es STATIC y para qué se usa?
+    /* ¿Qué es STATIC y para qué se usa?
      * Una clase es una fábrica de objetos y cada objeto de esa clase es un objeto único, sin embargo
      * hay herramientas o recursos que todos los objetos de esa fábrica pueden compartir y que no están
      * limitados a un objeto.
@@ -110,12 +110,12 @@ public class Funciones {
      * invocarlas desde cualquier lugar dentro de la clase.
      */
 
-    /**¿Que es PUBLIC o PRIVATE y para qué se usa?
+    /* ¿Que es PUBLIC o PRIVATE y para qué se usa?
      * A diferencia de STATIC, que determina -pertenencia-, PUBLIC o PRIVATE determinan -visibilidad- de 
      * la función o el atributo respecto a todo el código.
      * Un método o atributo PUBLIC puede ser accedido y utilizado desde cualquier parte del código (y modificado), 
-     * mientras que un método o atributo PRIVATE sólo puede ser accedido desde dentro de la misma clase
-     * donde se define y permite controlar estrictamente el acceso a través de getters y setters.
+     * mientras que un método o atributo PRIVATE sólo puede ser accedido directamente desde dentro de la misma clase
+     * donde se define o a través de getters y setters (control de acceso).
      */
     
     
